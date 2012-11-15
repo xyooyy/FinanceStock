@@ -30,6 +30,7 @@
 
 -(void) DrawCenterLine : (CGContextRef) context
 {
+    CGContextSaveGState(context);
     CGContextSetLineCap(context, kCGLineCapRound);//设置线终点形状
 	CGContextSetLineWidth(context, 2.0);
 
@@ -44,6 +45,7 @@
 
 -(void) drawCenterRect : (CGContextRef) context
 {
+    CGContextSaveGState(context);
     CGContextSetFillColorWithColor(context,m_colorKLine.CGColor);
     
     double dbRectBeginPointX = m_cgpRectCenterPoint.x-m_dbRectWidth/2;
@@ -55,22 +57,23 @@
     CGContextAddRect(context,rectRectangle);
     CGContextStrokePath(context);
 
-	m_imageDrawKLineBackground.image = UIGraphicsGetImageFromCurrentImageContext();
 }
 
 -(void) DrawKLine
 {
     UIGraphicsBeginImageContext(self.frame.size);//当前环境变量
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSaveGState(context);
-    [m_imageDrawKLineBackground.image drawInRect:CGRectMake(0, 0, m_imageDrawKLineBackground.frame.size.width, m_imageDrawKLineBackground.frame.size.height)];
+    //
+    //[m_imageDrawKLineBackground.image drawInRect:CGRectMake(0, 0, m_imageDrawKLineBackground.frame.size.width, m_imageDrawKLineBackground.frame.size.height)];
     /*画线*/
 	[self DrawCenterLine : context];
     /*画矩形*/
     [self drawCenterRect : context];
+    m_imageDrawKLineBackground.image = UIGraphicsGetImageFromCurrentImageContext();
 
    	UIGraphicsEndImageContext();
 }
+
 
 
 @end

@@ -13,8 +13,10 @@
     CGPoint m_cgpHighestPoint;
     CGPoint m_cgpLowestPoint;
     CGPoint m_cgpRectCenterPoint;
+    
     double m_dbRectWidth;
     double m_dbRectHeight;
+    
     UIImageView * m_imageDrawKLineBackground;
     UIColor * m_colorKLine;
 }
