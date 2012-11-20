@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0303DA165B11200024EC58 /* ASStockToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0303D9165B11200024EC58 /* ASStockToolBar.m */; };
 		9AA3C17F16548DA400D9EB6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA3C17E16548DA400D9EB6E /* UIKit.framework */; };
 		9AA3C18116548DA400D9EB6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA3C18016548DA400D9EB6E /* Foundation.framework */; };
 		9AA3C18316548DA400D9EB6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA3C18216548DA400D9EB6E /* CoreGraphics.framework */; };
@@ -29,7 +30,14 @@
 		9AA3C1B816548DA400D9EB6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AA3C1B616548DA400D9EB6E /* InfoPlist.strings */; };
 		9AA3C1BB16548DA400D9EB6E /* StockFinanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3C1BA16548DA400D9EB6E /* StockFinanceTests.m */; };
 		9AA3C1C916548E2100D9EB6E /* ASDrawKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3C1C616548E2100D9EB6E /* ASDrawKLine.m */; };
-		9AA3C1CA16548E2100D9EB6E /* ASStockInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3C1C816548E2100D9EB6E /* ASStockInfo.m */; };
+		9AB310E7165918E200E55D50 /* ASKLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB310E2165918E200E55D50 /* ASKLineController.m */; };
+		9AB310E8165918E200E55D50 /* ASKLinePositionConv.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB310E4165918E200E55D50 /* ASKLinePositionConv.m */; };
+		9AB310E9165918E200E55D50 /* ASStockDrawInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB310E6165918E200E55D50 /* ASStockDrawInfo.m */; };
+		9AB3110016591A8200E55D50 /* ASStockPriceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB310FF16591A8200E55D50 /* ASStockPriceInfo.m */; };
+		9AB3110816591AF600E55D50 /* ASPosConv.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3110716591AF600E55D50 /* ASPosConv.m */; };
+		9AB3110E16591BDF00E55D50 /* ASDrawLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3110B16591BDF00E55D50 /* ASDrawLineChart.m */; };
+		9AB3110F16591BDF00E55D50 /* ASPositionConv.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3110D16591BDF00E55D50 /* ASPositionConv.m */; };
+		9AB3111216591BE600E55D50 /* ASStockPosInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3111116591BE600E55D50 /* ASStockPosInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A0303D8165B11200024EC58 /* ASStockToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStockToolBar.h; sourceTree = "<group>"; };
+		9A0303D9165B11200024EC58 /* ASStockToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStockToolBar.m; sourceTree = "<group>"; };
 		9AA3C17A16548DA400D9EB6E /* StockFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA3C17E16548DA400D9EB6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9AA3C18016548DA400D9EB6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,8 +83,22 @@
 		9AA3C1BA16548DA400D9EB6E /* StockFinanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockFinanceTests.m; sourceTree = "<group>"; };
 		9AA3C1C516548E2100D9EB6E /* ASDrawKLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDrawKLine.h; sourceTree = "<group>"; };
 		9AA3C1C616548E2100D9EB6E /* ASDrawKLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDrawKLine.m; sourceTree = "<group>"; };
-		9AA3C1C716548E2100D9EB6E /* ASStockInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStockInfo.h; sourceTree = "<group>"; };
-		9AA3C1C816548E2100D9EB6E /* ASStockInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStockInfo.m; sourceTree = "<group>"; };
+		9AB310E1165918E200E55D50 /* ASKLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASKLineController.h; sourceTree = "<group>"; };
+		9AB310E2165918E200E55D50 /* ASKLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASKLineController.m; sourceTree = "<group>"; };
+		9AB310E3165918E200E55D50 /* ASKLinePositionConv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASKLinePositionConv.h; sourceTree = "<group>"; };
+		9AB310E4165918E200E55D50 /* ASKLinePositionConv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASKLinePositionConv.m; sourceTree = "<group>"; };
+		9AB310E5165918E200E55D50 /* ASStockDrawInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStockDrawInfo.h; sourceTree = "<group>"; };
+		9AB310E6165918E200E55D50 /* ASStockDrawInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStockDrawInfo.m; sourceTree = "<group>"; };
+		9AB310FE16591A8200E55D50 /* ASStockPriceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStockPriceInfo.h; sourceTree = "<group>"; };
+		9AB310FF16591A8200E55D50 /* ASStockPriceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStockPriceInfo.m; sourceTree = "<group>"; };
+		9AB3110616591AF600E55D50 /* ASPosConv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPosConv.h; sourceTree = "<group>"; };
+		9AB3110716591AF600E55D50 /* ASPosConv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPosConv.m; sourceTree = "<group>"; };
+		9AB3110A16591BDF00E55D50 /* ASDrawLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASDrawLineChart.h; path = StockFinance/ASDrawLineChart.h; sourceTree = "<group>"; };
+		9AB3110B16591BDF00E55D50 /* ASDrawLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASDrawLineChart.m; path = StockFinance/ASDrawLineChart.m; sourceTree = "<group>"; };
+		9AB3110C16591BDF00E55D50 /* ASPositionConv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASPositionConv.h; path = StockFinance/ASPositionConv.h; sourceTree = "<group>"; };
+		9AB3110D16591BDF00E55D50 /* ASPositionConv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASPositionConv.m; path = StockFinance/ASPositionConv.m; sourceTree = "<group>"; };
+		9AB3111016591BE600E55D50 /* ASStockPosInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASStockPosInfo.h; path = StockFinance/ASStockPosInfo.h; sourceTree = "<group>"; };
+		9AB3111116591BE600E55D50 /* ASStockPosInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASStockPosInfo.m; path = StockFinance/ASStockPosInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0303DC165B11250024EC58 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				9A0303D8165B11200024EC58 /* ASStockToolBar.h */,
+				9A0303D9165B11200024EC58 /* ASStockToolBar.m */,
+			);
+			name = ToolBar;
+			sourceTree = "<group>";
+		};
 		9AA3C16F16548DA400D9EB6E = {
 			isa = PBXGroup;
 			children = (
@@ -134,9 +167,13 @@
 		9AA3C18416548DA400D9EB6E /* StockFinance */ = {
 			isa = PBXGroup;
 			children = (
+				9A0303DC165B11250024EC58 /* ToolBar */,
+				9AB3110916591B9000E55D50 /* StockChartLine */,
 				9AA3C1C416548DB300D9EB6E /* StockKLine */,
 				9AA3C18D16548DA400D9EB6E /* AppDelegate.h */,
 				9AA3C18E16548DA400D9EB6E /* AppDelegate.m */,
+				9AB3110616591AF600E55D50 /* ASPosConv.h */,
+				9AB3110716591AF600E55D50 /* ASPosConv.m */,
 				9AA3C19616548DA400D9EB6E /* MainStoryboard.storyboard */,
 				9AA3C19916548DA400D9EB6E /* FirstViewController.h */,
 				9AA3C19A16548DA400D9EB6E /* FirstViewController.m */,
@@ -187,12 +224,32 @@
 		9AA3C1C416548DB300D9EB6E /* StockKLine */ = {
 			isa = PBXGroup;
 			children = (
+				9AB310FE16591A8200E55D50 /* ASStockPriceInfo.h */,
+				9AB310FF16591A8200E55D50 /* ASStockPriceInfo.m */,
+				9AB310E1165918E200E55D50 /* ASKLineController.h */,
+				9AB310E2165918E200E55D50 /* ASKLineController.m */,
+				9AB310E3165918E200E55D50 /* ASKLinePositionConv.h */,
+				9AB310E4165918E200E55D50 /* ASKLinePositionConv.m */,
+				9AB310E5165918E200E55D50 /* ASStockDrawInfo.h */,
+				9AB310E6165918E200E55D50 /* ASStockDrawInfo.m */,
 				9AA3C1C516548E2100D9EB6E /* ASDrawKLine.h */,
 				9AA3C1C616548E2100D9EB6E /* ASDrawKLine.m */,
-				9AA3C1C716548E2100D9EB6E /* ASStockInfo.h */,
-				9AA3C1C816548E2100D9EB6E /* ASStockInfo.m */,
 			);
 			name = StockKLine;
+			sourceTree = "<group>";
+		};
+		9AB3110916591B9000E55D50 /* StockChartLine */ = {
+			isa = PBXGroup;
+			children = (
+				9AB3111016591BE600E55D50 /* ASStockPosInfo.h */,
+				9AB3111116591BE600E55D50 /* ASStockPosInfo.m */,
+				9AB3110A16591BDF00E55D50 /* ASDrawLineChart.h */,
+				9AB3110B16591BDF00E55D50 /* ASDrawLineChart.m */,
+				9AB3110C16591BDF00E55D50 /* ASPositionConv.h */,
+				9AB3110D16591BDF00E55D50 /* ASPositionConv.m */,
+			);
+			name = StockChartLine;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,7 +371,15 @@
 				9AA3C19B16548DA400D9EB6E /* FirstViewController.m in Sources */,
 				9AA3C1A216548DA400D9EB6E /* SecondViewController.m in Sources */,
 				9AA3C1C916548E2100D9EB6E /* ASDrawKLine.m in Sources */,
-				9AA3C1CA16548E2100D9EB6E /* ASStockInfo.m in Sources */,
+				9AB310E7165918E200E55D50 /* ASKLineController.m in Sources */,
+				9AB310E8165918E200E55D50 /* ASKLinePositionConv.m in Sources */,
+				9AB310E9165918E200E55D50 /* ASStockDrawInfo.m in Sources */,
+				9AB3110016591A8200E55D50 /* ASStockPriceInfo.m in Sources */,
+				9AB3110816591AF600E55D50 /* ASPosConv.m in Sources */,
+				9AB3110E16591BDF00E55D50 /* ASDrawLineChart.m in Sources */,
+				9AB3110F16591BDF00E55D50 /* ASPositionConv.m in Sources */,
+				9AB3111216591BE600E55D50 /* ASStockPosInfo.m in Sources */,
+				9A0303DA165B11200024EC58 /* ASStockToolBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +554,7 @@
 				9AA3C1C016548DA400D9EB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AA3C1C116548DA400D9EB6E /* Build configuration list for PBXNativeTarget "StockFinanceTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +563,7 @@
 				9AA3C1C316548DA400D9EB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

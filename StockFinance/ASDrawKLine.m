@@ -64,7 +64,7 @@
     UIGraphicsBeginImageContext(self.frame.size);//当前环境变量
     CGContextRef context = UIGraphicsGetCurrentContext();
     //
-    //[m_imageDrawKLineBackground.image drawInRect:CGRectMake(0, 0, m_imageDrawKLineBackground.frame.size.width, m_imageDrawKLineBackground.frame.size.height)];
+    [m_imageDrawKLineBackground.image drawInRect:CGRectMake(0, 0, m_imageDrawKLineBackground.frame.size.width, m_imageDrawKLineBackground.frame.size.height)];
     /*画线*/
 	[self DrawCenterLine : context];
     /*画矩形*/
